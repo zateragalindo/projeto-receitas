@@ -1,3 +1,12 @@
+:root {
+  margin: 0px;
+  padding: 0px;
+
+  box-sizing: border-box;
+
+  font-family: "Alice", serif;
+  font-weight: 400;
+}
 body {
   background-image: url("./assets/bg-image.jpg");
   background-size: cover;
@@ -5,8 +14,6 @@ body {
 }
 
 #page {
-  box-sizing: border-box;
-  
   width: 800px;
   
   background-color: #F0E8C2;
@@ -18,4 +25,19 @@ body {
 
 img {
   border-radius: 16px;
+}
+
+h1 {
+  line-height: 140%;
+  font-size: 40px;
+}
+
+h1, h2 {
+  color: #291B1A;
+}
+
+p {
+  color: #573A37;
+  line-height: 150%;
+  font-size: 16px;
 }
