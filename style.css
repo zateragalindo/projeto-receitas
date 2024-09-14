@@ -1,16 +1,20 @@
-:root {
+* {
   margin: 0px;
   padding: 0px;
-
   box-sizing: border-box;
-
+}
+:root {
+  
   font-family: "Alice", serif;
   font-weight: 400;
+  
+  color: #573A37;
+  font-size: 16px;
+  line-height: 150%;
 }
 body {
   background-image: url("./assets/bg-image.jpg");
   background-size: cover;
-
 }
 
 #page {
@@ -27,17 +31,33 @@ img {
   border-radius: 16px;
 }
 
+main {
+  padding: 24px;
+}
+
+section + section {
+  margin-top: 24px;
+}
+
+#about p + p {
+  margin-top: 12px;
+}
+
 h1 {
   line-height: 140%;
   font-size: 40px;
 }
 
-h1, h2 {
-  color: #291B1A;
+h2 {
+  font-size: 24px;
 }
 
-p {
-  color: #573A37;
+h1, h2 {
+  color: #291B1A;
+  margin-bottom: 4px;
   line-height: 150%;
-  font-size: 16px;
+}
+
+ul {
+  padding-left: 24px;
 }
